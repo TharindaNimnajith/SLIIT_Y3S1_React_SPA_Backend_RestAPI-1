@@ -246,8 +246,8 @@ const sendEmail = async (email, password) => {
       </table>
       </td>
       </tr>
-      <tr style="background: rgb(237, 243, 255); padding-left: 20px; padding-right: 20px;">
-      <td>`
+      </table>
+      </div>`
   }
 
   transporter.sendMail(info, (error, data) => {
